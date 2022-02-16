@@ -1,0 +1,114 @@
+body {
+  /*background-color: #f7f7f7;*/
+  background-color: #f7f7f7!important;
+  margin: 0;
+  color: #32363a;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif !important;
+  line-height: 1.8!important;
+  }
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  margin-bottom: 30px;
+}
+
+h2, h3 {
+  /*color: #427cac;*/
+  color: #354a5f
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2.5rem !important;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5rem !important;
+}
+
+h4 {
+  font-size: 1rem !important;
+  font-weight: bolder!important;
+  margin-bottom: 10px!important;
+}
+
+p.lead {
+  text-align: center;
+}
+
+.top-container {
+  background-color: #354a5f;
+  background-image: url("background/Imagen6.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-size: 100% 100%;
+  margin-bottom: 0;
+  padding: 15% 25% 25% 25%;
+}
+
+.top-container .titulo-container {
+  /*padding: 25% 25% 25% 25%;*/
+  position: relative;
+  z-index: 4;
+  text-align: center;
+  color: white;
+}
+
+.top-container .titulo-container h1 {
+  padding-bottom: 20px;
+  margin-bottom: 1px;
+  border-bottom: 1px solid #D8D2CB;
+  display: inline-block;
+  font-size: 4rem;
+  /*64 px*/
+}
+
+.top-container .titulo-container .lead {
+  font-size: 2rem;
+  padding-bottom: 1%;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.background-white {
+  background-color: white;
+}
+
+#profile .row > div { margin-bottom: 20px; }
+.container { max-width: 1280px; padding: 40px 180px; }
+
+
+#experiences .experience p > strong { display: block; margin-bottom: 10px; }
+#experiences .experience .experience-details { display: block; margin-top: 10px; }
+.inline-icon{
+  width: 1rem;
+  height: 1rem;
+}
+
+ul.no-bullets { list-style-type: none; margin: 0px; padding: 0px; }
+#abilities ul > li { min-height: 30px; padding: 3px 0px; }
+#abilities ul > li:hover { background: #f7f7f7; }
+#abilities ul > li .ability-title { display: inline-block; width: 60%; }
+#abilities ul > li .ability-score { float: right; }
+#abilities ul > li:hover .ability-score .star { margin-left: 2px; }
+
+.background-blue {
+  background-color: #427cac;
+  /*#036cdb*/
+  /*#32363a*/
+  /*#6a6d70*/
+}
+
+.link {
+  color: #354a5f;
+}
+
+.btn {
+  color: #354a5f;
+}
