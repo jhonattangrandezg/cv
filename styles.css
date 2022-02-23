@@ -1,0 +1,203 @@
+/* ---------------- Estilos genéricos para todo la página ---------------- */
+html, body {
+  color: #32363a;
+  font-family: 'Lora', serif !important;
+  height: 100%;
+}
+
+body {
+  background-color: #EFEFEF;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif !important;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 3.5rem !important;
+  margin-bottom: 30px;
+  letter-spacing: 0.4rem;
+}
+
+h2 {
+  font-size: 2.5rem !important;
+  letter-spacing: 0.4rem;
+}
+
+h2, h3 {
+  color: #0A1931;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 40px 180px;
+}
+
+/* ---------------- Presentación título  ---------------- */
+.jumbotron {
+  background-color: #185ADB;
+  background-image: url("background/Imagen6.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-size: 100% 100%;
+  margin-bottom: 0;
+  padding: 15% 15% 25% 15%;
+}
+
+.jumbotron .container {
+  text-align: center;
+  color: #EFEFEF;
+}
+
+.jumbotron .container h1 {
+  background: linear-gradient(#ffffff00 60% , #185ADB 40%);
+}
+
+.jumbotron .container .lead {
+  font-size: 2rem;
+}
+
+.subrayado {
+  text-decoration: underline;
+}
+
+/* ---------------- Síntesis profesional  ---------------- */
+
+.background-gris {
+  background-color: #EFEFEF;
+}
+
+.background-blanco {
+  background-color: white;
+}
+
+#profile .row>div {
+  margin-bottom: 10px;
+}
+
+#profile h2{
+  background: linear-gradient(#ffffff00 60% , #FFC947 40%);
+}
+
+#experiences h2{
+  background: linear-gradient(#ffffff00 60% , #185ADB 40%);
+}
+
+#experiences .row>div {
+  margin-bottom: 10px;
+}
+
+#education h2{
+  background: linear-gradient(#ffffff00 60% , #FFC947 40%);
+}
+
+#education .row>div {
+  margin-bottom: 10px;
+}
+
+#abilities h2{
+  background: linear-gradient(#ffffff00 60% , #185ADB 40%);
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.star{
+  color: #185ADB;
+}
+
+#abilities ul>li {
+  min-height: 30px;
+  padding: 3px 0;
+}
+
+#abilities ul>li:hover {
+  background: #0A1931;
+  color: #EFEFEF;
+}
+
+#abilities ul>li:hover .link {
+  background: #0A1931;
+  color: #FFC947;
+}
+
+#abilities ul>li .ability-title {
+  display: inline-block;
+  width: 60%;
+}
+
+#abilities ul>li .ability-score {
+  float: right;
+}
+
+#abilities ul>li:hover .ability-score .star {
+  margin-left: 3px;
+  color: #FFC947;
+}
+
+.link {
+  color: #0A1931;
+}
+
+.link:hover {
+  color: #185ADB;
+}
+
+#contact h2{
+  background: linear-gradient(#ffffff00 60% , #FFC947 40%);
+}
+
+.bottom-page{
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 3rem !important;
+  }
+
+  h2 {
+    font-size: 2rem !important;
+    letter-spacing: 0.2rem;
+  }
+
+  h3 {
+    font-size: 1rem!important;
+  }
+
+  .jumbotron {
+    background-color: #185ADB;
+    background-image: url("background/Imagen6.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-size: 100% 100%;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .jumbotron .container {
+    text-align: left;
+  }
+  .jumbotron .container h1 {
+    display: inline-block;
+    background: linear-gradient(#ffffff00 80% , #185ADB 20%);
+  }
+  .jumbotron .container .lead {
+    font-size: 1.5rem!important;
+  }
+}
