@@ -166,6 +166,19 @@ ul.no-bullets {
 }
 
 @media (max-width: 500px) {
+  h1 {
+    font-size: 3rem !important;
+  }
+
+  h2 {
+    font-size: 2rem !important;
+    letter-spacing: 0.2rem;
+  }
+
+  h3 {
+    font-size: 1rem!important;
+  }
+
   .jumbotron {
     background-color: #185ADB;
     background-image: url("background/Imagen6.png");
@@ -185,6 +198,6 @@ ul.no-bullets {
     background: linear-gradient(#ffffff00 80% , #185ADB 20%);
   }
   .jumbotron .container .lead {
-    font-size: 1.5rem;
+    font-size: 1.5rem!important;
   }
 }
