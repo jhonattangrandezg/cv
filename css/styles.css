@@ -1,45 +1,50 @@
-body {
-  /*background-color: #f7f7f7;*/
-  background-color: #f7f7f7!important;
-  margin: 0;
+/* ---------------- Estilos genéricos para todo la página ---------------- */
+html, body {
   color: #32363a;
+  font-family: 'Lora', serif !important;
   height: 100%;
-  font-family: 'Montserrat', sans-serif !important;
-  line-height: 1.8!important;
-  }
-
-h1 {
-  font-family: 'Sacramento', cursive;
-  margin-bottom: 30px;
 }
 
-h2, h3 {
-  /*color: #427cac;*/
-  color: #354a5f
+body {
+  background-color: #EFEFEF;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif !important;
   margin-bottom: 20px;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 3.5rem !important;
+  margin-bottom: 30px;
+  letter-spacing: 0.4rem;
 }
 
 h2 {
   font-size: 2.5rem !important;
-  text-align: center;
+  letter-spacing: 0.4rem;
+}
+
+h2, h3 {
+  color: #0A1931;
 }
 
 h3 {
-  font-size: 1.5rem !important;
+  font-size: 1.5rem;
 }
 
-h4 {
-  font-size: 1rem !important;
-  font-weight: bolder!important;
-  margin-bottom: 10px!important;
+.container {
+  max-width: 1280px;
+  padding: 40px 180px;
 }
 
-p.lead {
-  text-align: center;
-}
-
-.top-container {
-  background-color: #354a5f;
+/* ---------------- Presentación título  ---------------- */
+.jumbotron {
+  background-color: #185ADB;
   background-image: url("background/Imagen6.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -47,77 +52,139 @@ p.lead {
   background-clip: border-box;
   background-size: 100% 100%;
   margin-bottom: 0;
-  padding: 15% 25% 25% 25%;
+  padding: 15% 15% 25% 15%;
 }
 
-.top-container .titulo-container {
-  /*padding: 25% 25% 25% 25%;*/
-  position: relative;
-  z-index: 4;
+.jumbotron .container {
   text-align: center;
-  color: white;
+  color: #EFEFEF;
 }
 
-.top-container .titulo-container h1 {
-  padding-bottom: 20px;
-  margin-bottom: 1px;
-  border-bottom: 1px solid #D8D2CB;
-  display: inline-block;
-  font-size: 4rem;
-  /*64 px*/
+.jumbotron .container h1 {
+  background: linear-gradient(#ffffff00 60% , #185ADB 40%);
 }
 
-.top-container .titulo-container .lead {
+.jumbotron .container .lead {
   font-size: 2rem;
-  padding-bottom: 1%;
 }
 
-.pro {
+.subrayado {
   text-decoration: underline;
 }
 
-.background-white {
+/* ---------------- Síntesis profesional  ---------------- */
+
+.background-gris {
+  background-color: #EFEFEF;
+}
+
+.background-blanco {
   background-color: white;
 }
 
-#profile .row > div { margin-bottom: 20px; }
-.container { max-width: 1280px; padding: 40px 180px; }
-
-
-#experiences .experience p > strong { display: block; margin-bottom: 10px; }
-#experiences .experience .experience-details { display: block; margin-top: 10px; }
-
-#education .education p > strong { display: block; margin-bottom: 10px; }
-#education .education .education-details { display: block; margin-top: 10px; }
-
-.inline-icon{
-  width: 1rem;
-  height: 1rem;
+#profile .row>div {
+  margin-bottom: 10px;
 }
 
-ul.no-bullets { list-style-type: none; margin: 0px; padding: 0px; }
-#abilities ul > li { min-height: 30px; padding: 3px 0px; }
-#abilities ul > li:hover { background: #32363a; color: white;}
-#abilities ul > li:hover .link{ background: #32363a; color: #036cdb;}
-#abilities ul > li .ability-title { display: inline-block; width: 60%; }
-#abilities ul > li .ability-score { float: right; }
-#abilities ul > li:hover .ability-score .star { margin-left: 2px; }
+#profile h2{
+  background: linear-gradient(#ffffff00 60% , #FFC947 40%);
+}
 
-.background-blue {
-  background-color: #427cac;
-  /*#036cdb*/
-  /*#32363a*/
-  /*#6a6d70*/
+#experiences h2{
+  background: linear-gradient(#ffffff00 60% , #185ADB 40%);
+}
+
+#experiences .row>div {
+  margin-bottom: 10px;
+}
+
+#education h2{
+  background: linear-gradient(#ffffff00 60% , #FFC947 40%);
+}
+
+#education .row>div {
+  margin-bottom: 10px;
+}
+
+#abilities h2{
+  background: linear-gradient(#ffffff00 60% , #185ADB 40%);
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.star{
+  color: #185ADB;
+}
+
+#abilities ul>li {
+  min-height: 30px;
+  padding: 3px 0;
+}
+
+#abilities ul>li:hover {
+  background: #0A1931;
+  color: #EFEFEF;
+}
+
+#abilities ul>li:hover .link {
+  background: #0A1931;
+  color: #FFC947;
+}
+
+#abilities ul>li .ability-title {
+  display: inline-block;
+  width: 60%;
+}
+
+#abilities ul>li .ability-score {
+  float: right;
+}
+
+#abilities ul>li:hover .ability-score .star {
+  margin-left: 3px;
+  color: #FFC947;
 }
 
 .link {
-  color: #32363a;
+  color: #0A1931;
 }
 
-.link:hover{
-  color: #036cdb;
+.link:hover {
+  color: #185ADB;
 }
 
-.btn {
-  color: #354a5f;
+#contact h2{
+  background: linear-gradient(#ffffff00 60% , #FFC947 40%);
+}
+
+.bottom-page{
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .jumbotron {
+    background-color: #185ADB;
+    background-image: url("background/Imagen6.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-size: 100% 100%;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .jumbotron .container {
+    text-align: left;
+  }
+  .jumbotron .container h1 {
+    display: inline-block;
+    background: linear-gradient(#ffffff00 80% , #185ADB 20%);
+  }
+  .jumbotron .container .lead {
+    font-size: 1.5rem;
+  }
 }
